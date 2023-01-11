@@ -8,6 +8,8 @@ services:
       - PUID=0
       - PGID=0
       - TZ=Europe/London
+      - PASSWORD=AliAly032230
+      - SUDO_PASSWORD=AliAly032230
       - DEFAULT_WORKSPACE=/config/workspace
     volumes:
       - /config:/config
